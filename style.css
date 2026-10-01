@@ -1,5 +1,6 @@
 @media print {.botoes{display:none}}
   #titulo_formulario{text-align:center;font-size:27px}
+  .img_tooltip{display:none}
 
   body {width:960px;margin:20px auto;font-family:"Trebuchet MS",Verdana,sans-serif}
   p {margin:0px;}
