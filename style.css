@@ -1,0 +1,191 @@
+@media print {.botoes{display:none}}
+  #titulo_formulario{text-align:center;font-size:27px}
+
+  body {width:960px;margin:20px auto;font-family:"Trebuchet MS",Verdana,sans-serif}
+  p {margin:0px;}
+  table {width:100%;border-collapse:collapse;border:2px solid #000;margin-top:10px;}
+  table.header, table.header td, table.botoes, table.botoes td {border:0px;}
+  /*.basico tr {border-bottom:1px solid #ccc;}*/
+  td {padding:5px;font-size:12px;border:1px solid #ccc;}
+  textarea {width:97%;clear:both}
+
+  label {font-weight:bold;font-size:12px;}
+  button, input[type="submit"] {padding: 3px;}
+  input[type="submit"] {cursor: pointer;}
+  input {width:97%}
+  input[type=checkbox]{
+      /* Double-sized Checkboxes */
+    -ms-transform: scale(2); /* IE */
+    -moz-transform: scale(2); /* FF */
+    -webkit-transform: scale(2); /* Safari and Chrome */
+    -o-transform: scale(2); /* Opera */
+    transform: scale(2);
+  }
+  .titulo-bg {background:#f9f9f9;}
+  .titulo-center {text-align:center;}
+  .titulo-right {text-align:right;}
+  .titulo-bold {font-weight:bold;}
+  .titulo-size {font-size:14px;text-transform:uppercase;}
+  .titulo-hr {border-top: 1px solid #000 !important;font-weight:bold;}
+  .height {height:150px;}
+  .sign, .sign td {border:0px;}
+  .sign td.bordered {border:2px solid #000;}
+  .sign td.no-border-top {border-top:0px;}
+  .sign td.no-border-bottom {border-bottom:0px;}
+  .inline {border-bottom: 1px solid #000 !important;clear: none !important;text-align: center;width: auto !important;}
+  .descbox {height:160px;}
+  .descbox2 {height:60px;}
+  .alert {margin:20px 0px;font-size:13px}
+  .center {text-align:center;}
+  #caso_nova_demanda_unidade{display: none}
+
+  #descricao_form{text-align:justify; margin-bottom:20px; margin-top: 20px}
+  // #botao_download{height:50px; width:100px; margin-bottom:20px; margin-top: 20px}
+  .botoes_rodape{height:50px; width:150px; margin-bottom:20px; margin-top: 20px}
+  #tudo_impressao{
+    padding-left:20px;padding-right:20px; 
+    background: url("https://i.ibb.co/bR5MQQqb/Whats-App-Image-2026-08-27-at-11-14-37-3.jpg");
+    //background: url("https://i.ibb.co/K4yc55M/bg-cpo.png");
+    // background: url("https://i.ibb.co/t0qr8c1/Design-sem-nome.png"); 
+    //background: url("https://i.ibb.co/f78jxSg/Design-sem-nome.png"); 
+    //background: url("https://i.ibb.co/xtDhQDxw/bg2.png"); 
+    background-position: center top;
+    background-attachment: fixed;
+    background-repeat:no-repeat;
+    background-color: #f7d4b6;
+    background-size: cover;
+    min-height: 100%
+    }
+
+    #tudo_impressao_2{
+    padding-left:20px;padding-right:20px; 
+    background: url("https://i.ibb.co/bR5MQQqb/Whats-App-Image-2026-08-27-at-11-14-37-3.jpg");
+    //background: url("https://i.ibb.co/K4yc55M/bg-cpo.png");
+    // background: url("https://i.ibb.co/t0qr8c1/Design-sem-nome.png"); 
+    //background: url("https://i.ibb.co/f78jxSg/Design-sem-nome.png"); 
+    //background: url("https://i.ibb.co/xtDhQDxw/bg2.png"); 
+    background-position: center top;
+    background-attachment: fixed;
+    background-repeat:no-repeat;
+    background-color: #f7d4b6;
+    background-size: cover;
+    min-height: 100%
+    }
+
+
+  a:link {color:#2C3B63;background-color:transparent;text-decoration:none;}
+  a:visited {color:#2C3B63;background-color:transparent;text-decoration:none;}
+  //a:hover {color:#ff0000;background-color:transparent;text-decoration:underline;font-weight:bold;}
+  a:active {color:#ff0000;background-color:transparent;text-decoration:underline;}
+  .roteiro {margin: 0;}
+  .help {color: #fff !important; width: 30px; height: 30px; line-height: 28px; border-radius: 50%; background-color: #018FFF !important; float: right; text-align: center; font-weight: bold; font-size: 14px; box-shadow: 0px 0px 2px #018FFF; border: 2px solid #fff; box-sizing: border-box;}
+  .help:hover {text-decoration: none; color: #000 !important;}
+
+  .resposta_dropdown_wrap {text-wrap: balance}
+  .resposta_grande:text-area {width:100%}
+  .subtitulo{background-color:#dddddd; text-align:center}
+  .titulo{background-color:#cccccc; text-align:center}
+  .select_largura_2{width:100%;text-wrap:wrap;height:46px}
+  .select_largura_1{width:100%;text-wrap:wrap;height:30px}
+  .ajuda_tooltip {width: 400px;background-color: black;color: #ffffff;text-align: center;padding: 5px 0;border-radius: 6px;position: absolute;z-index: 1;}
+  .resposta_grande{width:100%;display:block}
+
+  // importados da outra pagina 
+
+    #tabela_selecao_rascunhos tr:hover{
+      background: #bfddf3;
+      
+      td{
+        background: #bfddf3
+      }
+    }
+
+    #tabela_selecao_rascunhos tr:active{
+      background: #00A8FF;
+      color: #ffffff;
+      
+      td{
+        background: #00A8FF;
+        color: #ffffff
+      }
+    }
+
+    #tabela_selecao_rascunhos tr .rascunho_selecionado{
+      background: #00A8FF;
+      color: #ffffff;
+      
+      td{
+        background: #00A8FF;
+        color: #ffffff
+      }
+    }
+
+    hr{
+      margin-top: 0;
+      margin-bottom: 0;
+      color: #000000
+    }
+
+    #passa_pagina_rascunho{
+      background: #ffffff;
+      text-align: right
+    }
+    
+    #background_caixa_rascunho{
+      backgroud: #000000
+    }
+
+    .tabela_rascunho{
+      width: 80%;
+      display:block;
+      align-items: center;
+      margin-left: 10%;
+      text-align: center;
+      backgroud: white
+    }
+
+    #tabela_selecao_rascunhos{
+      backgroud: white;
+      border: 5px solid #ffffff;
+      margin-top: 0
+
+    }
+
+    #tabela_selecao_rascunhos th{
+      background: #cccccc;
+      text-align: center;
+    }	
+
+    #tabela_selecao_rascunhos tr:nth-child(2n+1){
+      background: #dddddd
+    }
+
+    #tabela_selecao_rascunhos tr:nth-child(2n){
+      background: #ffffff
+    }
+
+    #tabela_selecao_rascunhos th{
+      width: 14,2857%
+    }
+
+  .caixa_rascunho{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: block;
+    align-items: center;
+    justify-content: center;
+    z-index: 9998;
+    //border-collapse:collapse;
+    border:2px solid #000;
+    padding-top:100px;
+  }
+
+  .caixa_rascunho_escondida{
+    position: fixed;
+    z-index: -1;
+    display: none
+  }
